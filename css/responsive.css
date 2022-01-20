@@ -1,0 +1,408 @@
+@media (min-width: 280px) and (max-width: 530px) {
+    .contenido__card {
+        margin-top: 40px;
+    }
+
+    /* contenido presentacion */
+    .contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contenido__info {
+        width: 100%;
+    }
+
+    /* sidebar */
+    .sidebar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* servicios */
+
+    .servicio__contenido {
+        width: 143%;
+        display: block;
+    }
+
+    .servicio__img {
+        width: 100%
+    }
+
+    .titulo__boton {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* slider */
+    .testimonios {
+        width: 100%;
+    }
+
+    .slider {
+        display: grid;
+        grid-template-columns: 25px 1fr 2px;
+    }
+
+    .slider__figure {
+        grid-row: 1/2;
+    }
+
+    .slider__body {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: max-content 2fr;
+    }
+
+    .slider__titulo {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .slider__arrow {
+        z-index: 1;
+        width: 10px;
+    }
+
+    /* banner */
+    .banner {
+        z-index: -1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner__img {
+        display: grid;
+        height: 100vh;
+    }
+
+    .banner__titulo {
+        max-width: 70%;
+        margin-left: -40%;
+        margin-right: 10%;
+    }
+
+    .titulo__banner {
+        font-size: 0.4em;
+    }
+
+    .banner__parrafo {
+        max-width: 70%;
+        margin-left: -40%;
+        margin-right: 10%;
+        margin-top: -40%;
+
+    }
+
+    .parrafo__banner {
+        font-size: 0.6em;
+        margin-top: 10%;
+    }
+
+    .banner__imagen {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -20%;
+    }
+
+    .imagen__dos {
+        margin-top: -50%;
+    }
+
+    .boton__banner {
+        width: 50%;
+        padding: 10px 30px;
+    }
+
+    /* footer */
+    .footer {
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .titulo__footer {
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .nav__redes {
+        padding-left: 40px;
+        line-height: 10px;
+    }
+
+    .img__redes {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        position: fixed;
+        margin-top: -50px;
+    }
+
+    .logo__titulo {
+        font-size: 18px;
+    }
+
+    .hamburguersa {
+        display: block;
+    }
+
+    .enlaces {
+        position: fixed;
+        background-color: #CD853F;
+        left: 0;
+        top: 70px;
+        width: 50%;
+        height: 100vh;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+
+    .enlaces2 {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+
+    .enlaces__lista {
+        display: flex;
+        flex-direction: column;
+        line-height: 80px;
+        margin-left: 25px;
+    }
+
+
+    .card__cantidad {
+        font-size: 13px;
+    }
+
+    .card__precio {
+        font-size: 13px;
+    }
+
+    .logo--footer .titulo__footer {
+        font-size: 17px;
+    }
+
+    .lista_redes {
+        display: flex;
+    }
+
+    .img__redes {
+        width: 30px;
+        line-height: 20px;
+        display: grid;
+        margin-right: 20px;
+    }
+}
+
+
+@media (min-width: 531px) and (max-width:768px) {
+    .contenido__card {
+        margin-top: 50px;
+    }
+    .contenido {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card__cantidad {
+        font-size: 12px;
+    }
+
+    .card__precio {
+        font-size: 12px;
+    }
+
+    .titulo__footer {
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .nav__redes {
+        padding-left: 40px;
+        line-height: 10px;
+    }
+
+    .img__redes {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido__info {
+        width: 100%;
+    }
+
+    /* sidebar */
+    .sidebar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* servicios */
+
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .servicio__contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .servicio__img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .servicio__botones {
+        display: grid;
+    }
+
+    .titulo__boton {
+        margin-top: 10px;
+        text-align: center;
+        display: grid;
+    }
+
+    /* slider */
+    .testimonios {
+        width: 100%;
+    }
+
+    .slider {
+        display: grid;
+        grid-template-columns: 25px 1fr 2px;
+    }
+
+
+    .slider__body {
+        display: flex;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider__titulo {
+        margin-top: 10px;
+        text-align: center;
+        display: grid;
+        font-size: 13px;
+    }
+
+    .slider__texts {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .slider__parrafo {
+        margin-bottom: 20px;
+    }
+
+    .slider__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .slider__arrow {
+        z-index: 1;
+        width: 10px;
+    }
+
+    /* banner */
+    .banner {
+        z-index: -1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner__img {
+        display: grid;
+        height: 120vh;
+    }
+
+    .banner__titulo {
+        max-width: 70%;
+        margin-left: -40%;
+        margin-right: 10%;
+    }
+
+    .titulo__banner {
+        font-size: 0.6em;
+    }
+
+    .banner__parrafo {
+        max-width: 70%;
+        margin-left: -40%;
+        margin-right: 10%;
+        margin-top: -28%;
+
+    }
+
+    .parrafo__banner {
+        font-size: 0.7em;
+        margin-top: 10%;
+    }
+
+    .banner__imagen {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -20%;
+    }
+
+    .imagen__dos {
+        margin-top: -45%;
+    }
+
+    .boton__banner {
+        width: 50%;
+        padding: 10px 30px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+    .contenido__card {
+        margin-top: 10px;
+    }
+
+    .card__cantidad {
+        font-size: 12px;
+    }
+
+    .card__precio {
+        font-size: 12px;
+    }
+
+    .banner__titulo {
+        font-size: 22px;
+    }
+
+    .banner__parrafo {
+        margin-top: -5%;
+    }
+}
